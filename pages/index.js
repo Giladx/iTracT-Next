@@ -344,7 +344,7 @@ const Home = (props) => {
           .home-nav {
             flex: 0 0 auto;
             color: var(--dl-color-gray-white);
-            display: flex;
+            display: none;
             align-items: center;
             flex-direction: row;
           }
@@ -547,7 +547,7 @@ const Home = (props) => {
             justify-content: center;
           }
           .home-div {
-            height: 439px;
+            height: 260px;
             border-radius: 10px;
           }
           .home-container05 {
@@ -676,6 +676,9 @@ const Home = (props) => {
             .home-image {
               height: 3rem;
             }
+            .home-hero {
+              max-width: auto;
+            }
             .home-container05 {
               height: auto;
               padding: var(--dl-space-space-twounits);
@@ -762,6 +765,7 @@ const Home = (props) => {
               flex-direction: column;
             }
             .home-container03 {
+              width: auto;
               align-items: center;
               margin-right: 0px;
               margin-bottom: var(--dl-space-space-twounits);
@@ -774,6 +778,9 @@ const Home = (props) => {
               text-align: center;
               padding-left: var(--dl-space-space-threeunits);
               padding-right: var(--dl-space-space-threeunits);
+            }
+            .home-container04 {
+              width: auto;
             }
             .home-container05 {
               flex-direction: column;
@@ -843,9 +850,15 @@ const Home = (props) => {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
             }
+            .home-container03 {
+              width: auto;
+            }
             .home-text14 {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
+            }
+            .home-container04 {
+              width: auto;
             }
             .home-image1 {
               width: 80%;
@@ -865,6 +878,7 @@ const Home = (props) => {
               padding-bottom: var(--dl-space-space-twounits);
             }
             .home-container03 {
+              width: auto;
               margin-bottom: var(--dl-space-space-unit);
             }
             .home-btn-group1 {
@@ -873,6 +887,9 @@ const Home = (props) => {
             .home-button1 {
               margin-top: var(--dl-space-space-unit);
               margin-left: 0px;
+            }
+            .home-container04 {
+              width: auto;
             }
           }
         `}
