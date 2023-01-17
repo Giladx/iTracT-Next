@@ -27,7 +27,7 @@ class CustomDocument extends Document {
           ></style>
           <link
             rel="shortcut icon"
-            href="/playground_assets/itract-final-longways1.svg"
+            href="/playground_assets/fav.png"
             type="icon/png"
             sizes="32x32"
           ></link>
