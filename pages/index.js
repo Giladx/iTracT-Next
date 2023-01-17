@@ -616,7 +616,8 @@ const Home = (props) => {
             font-size: 22px;
           }
           .home-image1 {
-            width: 400px;
+            width: 500px;
+            height: auto;
             padding: var(--dl-space-space-twounits);
             align-self: flex-start;
             object-fit: cover;
