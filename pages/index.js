@@ -224,7 +224,7 @@ const Home = (props) => {
         <div className="home-container11">
           <img
             alt="image"
-            src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIwfHxkaWdpdGFsJTIwY29udHJhY3R8ZW58MHx8fHwxNjczOTA1OTUy&amp;ixlib=rb-4.0.3&amp;w=800"
+            src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIwfHxkaWdpdGFsJTIwY29udHJhY3R8ZW58MHx8fHwxNjczOTA1OTUy&amp;ixlib=rb-4.0.3&amp;w=1500"
             data-aos="fade"
             className="home-image2"
           />
@@ -897,8 +897,14 @@ const Home = (props) => {
             }
             .home-text26 {
               color: var(--dl-color-gray-white);
-              padding: var(--dl-space-space-unit);
               font-size: 22px;
+              padding-top: 0px;
+              padding-left: 0px;
+              padding-right: 0px;
+              padding-bottom: var(--dl-space-space-twounits);
+            }
+            .home-container11 {
+              width: 100%;
             }
             .home-image2 {
               width: 100%;
@@ -974,6 +980,15 @@ const Home = (props) => {
             }
             .home-container04 {
               width: auto;
+            }
+            .home-text26 {
+              padding-top: 0px;
+              padding-left: 0px;
+              padding-right: 0px;
+              padding-bottom: var(--dl-space-space-twounits);
+            }
+            .home-container11 {
+              width: 100%;
             }
           }
         `}
