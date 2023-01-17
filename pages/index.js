@@ -164,11 +164,10 @@ const Home = (props) => {
                 signatures.
               </span>
               <br></br>
-              <br></br>
             </span>
           </div>
           <div className="home-container06">
-            <span data-aos="fade" className="home-text22">
+            <span data-aos="fade" className="home-text21">
               iTracT uses cutting-edge technology to make the contract creation
               process simple and efficient. The platform&apos;s intuitive
               interface allows users to quickly and easily create contracts
@@ -178,7 +177,7 @@ const Home = (props) => {
             </span>
           </div>
           <div className="home-container07">
-            <span data-aos="fade" className="home-text23">
+            <span data-aos="fade" className="home-text22">
               One of the key features of iTracT is its ability to allow for
               digital signatures. This means that all parties involved in the
               contract can sign the agreement electronically, without the need
@@ -188,7 +187,7 @@ const Home = (props) => {
             </span>
           </div>
           <div className="home-container08">
-            <span data-aos="fade" className="home-text24">
+            <span data-aos="fade" className="home-text23">
               <span>
                 iTracT also offers advanced security features to ensure that
                 your contracts are kept safe and secure. The platform uses
@@ -196,11 +195,10 @@ const Home = (props) => {
                 all documents are stored in a secure, cloud-based system.
               </span>
               <br></br>
-              <br></br>
             </span>
           </div>
           <div data-aos="fade" className="home-container09">
-            <span className="home-text28">
+            <span className="home-text26">
               Overall, iTracT is the perfect solution for businesses and
               individuals who want to streamline their contract process and move
               away from paper-based agreements. With its user-friendly
@@ -236,12 +234,12 @@ const Home = (props) => {
         </div>
         <img
           alt="image"
-          src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIwfHxkaWdpdGFsJTIwY29udHJhY3R8ZW58MHx8fHwxNjczOTA1OTUy&amp;ixlib=rb-4.0.3&amp;w=1200"
+          src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIwfHxkaWdpdGFsJTIwY29udHJhY3R8ZW58MHx8fHwxNjczOTA1OTUy&amp;ixlib=rb-4.0.3&amp;w=1500"
           data-aos="fade"
           className="home-image1"
         />
         <div data-aos="fade" className="home-container10">
-          <span className="home-text29">
+          <span className="home-text27">
             <span>
               iTracT, the next generation of smart, editable digital contracts,
               offers many benefits when it comes to using blockchain technology.
@@ -568,7 +566,7 @@ const Home = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-text22 {
+          .home-text21 {
             color: var(--dl-color-gray-white);
             width: 100%;
             padding: var(--dl-space-space-unit);
@@ -587,7 +585,7 @@ const Home = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-text23 {
+          .home-text22 {
             color: var(--dl-color-gray-white);
             width: 100%;
             padding: var(--dl-space-space-unit);
@@ -601,7 +599,7 @@ const Home = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-text24 {
+          .home-text23 {
             color: var(--dl-color-gray-white);
             padding: var(--dl-space-space-unit);
             font-size: 22px;
@@ -613,7 +611,7 @@ const Home = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-text28 {
+          .home-text26 {
             color: var(--dl-color-gray-white);
             font-size: 22px;
           }
@@ -635,9 +633,14 @@ const Home = (props) => {
             align-items: flex-start;
             background-color: var(--dl-color-gray-black);
           }
-          .home-text29 {
+          .home-text27 {
             color: var(--dl-color-gray-white);
             font-size: 22px;
+          }
+          @media (max-width: 1600px) {
+            .home-nav {
+              display: none;
+            }
           }
           @media (max-width: 1200px) {
             .home-header {
@@ -648,6 +651,9 @@ const Home = (props) => {
               padding-bottom: var(--dl-space-space-unit);
             }
             .home-logo {
+              height: 3rem;
+            }
+            .home-image {
               height: 3rem;
             }
             .home-container04 {
@@ -687,6 +693,9 @@ const Home = (props) => {
               fill: var(--dl-color-gray-white);
               width: var(--dl-size-size-small);
               height: var(--dl-size-size-small);
+            }
+            .home-nav2 {
+              display: none;
             }
             .home-text05 {
               color: var(--dl-color-gray-white);
@@ -729,6 +738,7 @@ const Home = (props) => {
               height: var(--dl-size-size-small);
             }
             .home-hero {
+              min-height: 60vh;
               flex-direction: column;
             }
             .home-container03 {
@@ -751,21 +761,45 @@ const Home = (props) => {
             .home-container05 {
               top: -177px;
               right: 60px;
+              width: 100%;
               position: static;
             }
+            .home-text18 {
+              color: var(--dl-color-gray-white);
+              font-size: 22px;
+            }
             .home-container06 {
+              width: 100%;
               position: static;
             }
             .home-container07 {
+              width: 100%;
               position: static;
             }
             .home-container08 {
+              width: 100%;
               position: static;
+            }
+            .home-text23 {
+              color: var(--dl-color-gray-white);
+              font-size: 22px;
             }
             .home-container09 {
               top: -594px;
               left: 108px;
+              width: 100%;
               position: static;
+            }
+            .home-text26 {
+              color: var(--dl-color-gray-white);
+              padding: var(--dl-space-space-unit);
+              font-size: 22px;
+            }
+            .home-image1 {
+              width: 100%;
+            }
+            .home-container10 {
+              width: 100%;
             }
           }
           @media (max-width: 767px) {
