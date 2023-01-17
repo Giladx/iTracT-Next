@@ -155,7 +155,7 @@ const Home = (props) => {
           </div>
         </div>
         <div className="home-container04">
-          <div className="home-container05">
+          <div data-aos="fade" className="home-container05">
             <span className="home-text18">
               <span>
                 Introducing iTracT, the next generation of smart, editable
@@ -168,7 +168,7 @@ const Home = (props) => {
             </span>
           </div>
           <div className="home-container06">
-            <span className="home-text22">
+            <span data-aos="fade" className="home-text22">
               iTracT uses cutting-edge technology to make the contract creation
               process simple and efficient. The platform&apos;s intuitive
               interface allows users to quickly and easily create contracts
@@ -178,7 +178,7 @@ const Home = (props) => {
             </span>
           </div>
           <div className="home-container07">
-            <span className="home-text23">
+            <span data-aos="fade" className="home-text23">
               One of the key features of iTracT is its ability to allow for
               digital signatures. This means that all parties involved in the
               contract can sign the agreement electronically, without the need
@@ -188,7 +188,7 @@ const Home = (props) => {
             </span>
           </div>
           <div className="home-container08">
-            <span className="home-text24">
+            <span data-aos="fade" className="home-text24">
               <span>
                 iTracT also offers advanced security features to ensure that
                 your contracts are kept safe and secure. The platform uses
@@ -199,7 +199,7 @@ const Home = (props) => {
               <br></br>
             </span>
           </div>
-          <div className="home-container09">
+          <div data-aos="fade" className="home-container09">
             <span className="home-text28">
               Overall, iTracT is the perfect solution for businesses and
               individuals who want to streamline their contract process and move
@@ -236,7 +236,8 @@ const Home = (props) => {
         </div>
         <img
           alt="image"
-          src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIwfHxkaWdpdGFsJTIwY29udHJhY3R8ZW58MHx8fHwxNjczOTA1OTUy&amp;ixlib=rb-4.0.3&amp;h=1500"
+          src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIwfHxkaWdpdGFsJTIwY29udHJhY3R8ZW58MHx8fHwxNjczOTA1OTUy&amp;ixlib=rb-4.0.3&amp;w=1200"
+          data-aos="fade"
           className="home-image1"
         />
         <div className="home-container10">
