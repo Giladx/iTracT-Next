@@ -153,9 +153,16 @@ const Home = (props) => {
               <button className="home-button1 button">Learn More</button>
             </div>
           </div>
+          <div className="home-container04">
+            <div className="home-div">
+              <DangerousHTML
+                html={`<iframe src="https://giphy.com/embed/Ws38manBXbYRinfvOf" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/entertainment-monkeypaw-monkeypawproductions-Ws38manBXbYRinfvOf">via GIPHY</a></p>`}
+              ></DangerousHTML>
+            </div>
+          </div>
         </div>
-        <div className="home-container04">
-          <div data-aos="fade" className="home-container05">
+        <div className="home-container05">
+          <div data-aos="fade" className="home-container06">
             <span className="home-text18">
               <span>
                 Introducing iTracT, the next generation of smart, editable
@@ -166,7 +173,7 @@ const Home = (props) => {
               <br></br>
             </span>
           </div>
-          <div className="home-container06">
+          <div className="home-container07">
             <span data-aos="fade" className="home-text21">
               iTracT uses cutting-edge technology to make the contract creation
               process simple and efficient. The platform&apos;s intuitive
@@ -176,7 +183,7 @@ const Home = (props) => {
               agreement is always up-to-date and accurate.
             </span>
           </div>
-          <div className="home-container07">
+          <div className="home-container08">
             <span data-aos="fade" className="home-text22">
               One of the key features of iTracT is its ability to allow for
               digital signatures. This means that all parties involved in the
@@ -186,7 +193,7 @@ const Home = (props) => {
               reduce the risk of fraud and errors.
             </span>
           </div>
-          <div className="home-container08">
+          <div className="home-container09">
             <span data-aos="fade" className="home-text23">
               <span>
                 iTracT also offers advanced security features to ensure that
@@ -197,7 +204,7 @@ const Home = (props) => {
               <br></br>
             </span>
           </div>
-          <div data-aos="fade" className="home-container09">
+          <div data-aos="fade" className="home-container10">
             <span className="home-text26">
               Overall, iTracT is the perfect solution for businesses and
               individuals who want to streamline their contract process and move
@@ -238,7 +245,7 @@ const Home = (props) => {
           data-aos="fade"
           className="home-image1"
         />
-        <div data-aos="fade" className="home-container10">
+        <div data-aos="fade" className="home-container11">
           <span className="home-text27">
             <span>
               iTracT, the next generation of smart, editable digital contracts,
@@ -483,6 +490,7 @@ const Home = (props) => {
             justify-content: space-between;
           }
           .home-container03 {
+            width: 591px;
             display: flex;
             margin-right: var(--dl-space-space-threeunits);
             padding-right: var(--dl-space-space-threeunits);
@@ -531,6 +539,18 @@ const Home = (props) => {
             border-color: var(--dl-color-gray-black);
           }
           .home-container04 {
+            width: 472px;
+            display: flex;
+            align-items: center;
+            border-radius: 10px;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .home-div {
+            height: 439px;
+            border-radius: 10px;
+          }
+          .home-container05 {
             flex: 0 0 auto;
             width: 100%;
             height: auto;
@@ -541,7 +561,7 @@ const Home = (props) => {
             flex-direction: column;
             background-color: var(--dl-color-gray-black);
           }
-          .home-container05 {
+          .home-container06 {
             flex: 0 0 auto;
             width: 50%;
             display: flex;
@@ -559,7 +579,7 @@ const Home = (props) => {
             -webkit-animation: typing 3s steps(55, end),
               blink-caret 0.5s step-end infinite alternate;
           }
-          .home-container06 {
+          .home-container07 {
             flex: 0 0 auto;
             width: 50%;
             display: flex;
@@ -577,7 +597,7 @@ const Home = (props) => {
             -webkit-animation: typing 3s steps(55, end),
               blink-caret 0.5s step-end infinite alternate;
           }
-          .home-container07 {
+          .home-container08 {
             flex: 0 0 auto;
             width: 50%;
             height: auto;
@@ -591,7 +611,7 @@ const Home = (props) => {
             padding: var(--dl-space-space-unit);
             font-size: 22px;
           }
-          .home-container08 {
+          .home-container09 {
             flex: 0 0 auto;
             width: 50%;
             height: auto;
@@ -604,7 +624,7 @@ const Home = (props) => {
             padding: var(--dl-space-space-unit);
             font-size: 22px;
           }
-          .home-container09 {
+          .home-container10 {
             flex: 0 0 auto;
             width: 50%;
             display: flex;
@@ -623,7 +643,7 @@ const Home = (props) => {
             object-fit: cover;
             border-radius: 10px;
           }
-          .home-container10 {
+          .home-container11 {
             flex: 0 0 auto;
             width: 50%;
             height: auto;
@@ -656,11 +676,11 @@ const Home = (props) => {
             .home-image {
               height: 3rem;
             }
-            .home-container04 {
+            .home-container05 {
               height: auto;
               padding: var(--dl-space-space-twounits);
             }
-            .home-container10 {
+            .home-container11 {
               height: auto;
               padding: var(--dl-space-space-twounits);
             }
@@ -755,10 +775,10 @@ const Home = (props) => {
               padding-left: var(--dl-space-space-threeunits);
               padding-right: var(--dl-space-space-threeunits);
             }
-            .home-container04 {
+            .home-container05 {
               flex-direction: column;
             }
-            .home-container05 {
+            .home-container06 {
               top: -177px;
               right: 60px;
               width: 100%;
@@ -768,10 +788,6 @@ const Home = (props) => {
               color: var(--dl-color-gray-white);
               font-size: 22px;
             }
-            .home-container06 {
-              width: 100%;
-              position: static;
-            }
             .home-container07 {
               width: 100%;
               position: static;
@@ -780,11 +796,15 @@ const Home = (props) => {
               width: 100%;
               position: static;
             }
+            .home-container09 {
+              width: 100%;
+              position: static;
+            }
             .home-text23 {
               color: var(--dl-color-gray-white);
               font-size: 22px;
             }
-            .home-container09 {
+            .home-container10 {
               top: -594px;
               left: 108px;
               width: 100%;
@@ -798,7 +818,7 @@ const Home = (props) => {
             .home-image1 {
               width: 100%;
             }
-            .home-container10 {
+            .home-container11 {
               width: 100%;
             }
           }
