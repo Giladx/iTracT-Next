@@ -650,12 +650,14 @@ const Home = (props) => {
           }
           .home-container11 {
             flex: 0 0 auto;
+            width: 50%;
             display: flex;
+            align-self: flex-start;
             align-items: flex-start;
             flex-direction: column;
           }
           .home-image2 {
-            width: 500px;
+            width: 100%;
             height: auto;
             padding: var(--dl-space-space-twounits);
             align-self: flex-start;
