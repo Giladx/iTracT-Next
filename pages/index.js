@@ -240,7 +240,7 @@ const Home = (props) => {
           data-aos="fade"
           className="home-image1"
         />
-        <div className="home-container10">
+        <div data-aos="fade" className="home-container10">
           <span className="home-text29">
             <span>
               iTracT, the next generation of smart, editable digital contracts,
