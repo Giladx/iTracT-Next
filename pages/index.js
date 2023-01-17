@@ -700,6 +700,9 @@ const Home = (props) => {
               height: auto;
               padding: var(--dl-space-space-twounits);
             }
+            .home-image2 {
+              width: 50%;
+            }
             .home-container11 {
               height: auto;
               padding: var(--dl-space-space-twounits);
@@ -882,7 +885,7 @@ const Home = (props) => {
               width: auto;
             }
             .home-image2 {
-              width: 80%;
+              width: 100%;
             }
           }
           @media (max-width: 479px) {
