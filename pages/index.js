@@ -708,6 +708,41 @@ const Home = (props) => {
               height: auto;
               padding: var(--dl-space-space-twounits);
             }
+            .home-container06 {
+              padding: 0px;
+            }
+            .home-text18 {
+              color: var(--dl-color-gray-white);
+              font-size: 22px;
+              padding-top: 0px;
+              padding-left: 0px;
+              padding-right: 0px;
+              padding-bottom: var(--dl-space-space-twounits);
+            }
+            .home-text21 {
+              padding-top: 0px;
+              padding-left: 0px;
+              padding-right: 0px;
+              padding-bottom: var(--dl-space-space-twounits);
+            }
+            .home-text22 {
+              padding-top: 0px;
+              padding-left: 0px;
+              padding-right: 0px;
+              padding-bottom: var(--dl-space-space-twounits);
+            }
+            .home-text23 {
+              padding-top: 0px;
+              padding-left: 0px;
+              padding-right: 0px;
+              padding-bottom: var(--dl-space-space-twounits);
+            }
+            .home-text26 {
+              padding-top: 0px;
+              padding-left: 0px;
+              padding-right: 0px;
+              padding-bottom: var(--dl-space-space-twounits);
+            }
             .home-container11 {
               width: 50%;
               padding: var(--dl-space-space-twounits);
@@ -722,6 +757,9 @@ const Home = (props) => {
             .home-container12 {
               height: auto;
               padding: var(--dl-space-space-twounits);
+            }
+            .home-text27 {
+              color: var(--dl-color-gray-white);
             }
           }
           @media (max-width: 991px) {
