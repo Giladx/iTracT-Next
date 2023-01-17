@@ -49,7 +49,9 @@ const Home = (props) => {
               </nav>
             </div>
             <div data-thq="thq-navbar-btn-group" className="home-btn-group">
-              <button className="home-login button">Login</button>
+              <Link href="/get-started">
+                <a className="home-link1 button">Login</a>
+              </Link>
               <button className="button">Register</button>
             </div>
             <div data-thq="thq-burger-menu" className="home-burger-menu">
@@ -65,7 +67,7 @@ const Home = (props) => {
               >
                 <div className="home-container01">
                   <Link href="/">
-                    <a className="home-link1">
+                    <a className="home-link2">
                       <img
                         alt="image"
                         src="/playground_assets/itract-final-longways.svg"
@@ -149,21 +151,25 @@ const Home = (props) => {
               </span>
             </span>
             <div className="home-btn-group1">
-              <button className="home-button button">Get Started</button>
-              <button className="home-button1 button">Learn More</button>
+              <Link href="/get-started">
+                <a className="home-link3 button">Get Started</a>
+              </Link>
+              <a href="#start" className="home-link4 button">
+                Learn More
+              </a>
             </div>
           </div>
           <div className="home-container04">
             <img
-              src="https://media2.giphy.com/media/oyGpShr0FL7Fmdu1CG/giphy.gif?cid=ecf05e47wyllg4mn0atpxohzfbkpw4784pl8h276lmrqfmmk&amp;rid=giphy.gif"
               alt="image"
+              src="https://media2.giphy.com/media/oyGpShr0FL7Fmdu1CG/giphy.gif?cid=ecf05e47wyllg4mn0atpxohzfbkpw4784pl8h276lmrqfmmk&amp;rid=giphy.gif"
               className="home-image1"
             />
           </div>
         </div>
         <div className="home-container05">
           <div data-aos="fade" className="home-container06">
-            <span className="home-text18">
+            <span id="start" className="home-text18">
               <span>
                 Introducing iTracT, the next generation of smart, editable
                 digital contracts. With iTracT, you can easily create, edit, and
@@ -373,9 +379,10 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .home-login {
+          .home-link1 {
             border-width: 0px;
             margin-right: var(--dl-space-space-twounits);
+            text-decoration: none;
           }
           .home-burger-menu {
             display: none;
@@ -413,7 +420,7 @@ const Home = (props) => {
             margin-bottom: var(--dl-space-space-threeunits);
             justify-content: space-between;
           }
-          .home-link1 {
+          .home-link2 {
             display: contents;
           }
           .home-image {
@@ -511,20 +518,21 @@ const Home = (props) => {
             align-items: center;
             flex-direction: row;
           }
-          .home-button {
+          .home-link3 {
             color: var(--dl-color-gray-white);
             transition: 0.3s;
             padding-top: var(--dl-space-space-unit);
             padding-left: var(--dl-space-space-twounits);
             padding-right: var(--dl-space-space-twounits);
             padding-bottom: var(--dl-space-space-unit);
+            text-decoration: none;
             background-color: var(--dl-color-gray-black);
           }
-          .home-button:hover {
+          .home-link3:hover {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-gray-black);
           }
-          .home-button1 {
+          .home-link4 {
             color: var(--dl-color-gray-white);
             transition: 0.3s;
             margin-left: var(--dl-space-space-unit);
@@ -533,9 +541,10 @@ const Home = (props) => {
             padding-left: var(--dl-space-space-twounits);
             padding-right: var(--dl-space-space-twounits);
             padding-bottom: var(--dl-space-space-unit);
+            text-decoration: none;
             background-color: var(--dl-color-gray-black);
           }
-          .home-button1:hover {
+          .home-link4:hover {
             border-color: var(--dl-color-gray-black);
           }
           .home-container04 {
@@ -899,13 +908,12 @@ const Home = (props) => {
             .home-btn-group1 {
               flex-direction: column;
             }
-            .home-button {
+            .home-link3 {
               border-color: var(--dl-color-gray-900);
             }
-            .home-button1 {
+            .home-link4 {
               margin-top: var(--dl-space-space-unit);
               margin-left: 0px;
-              border-color: var(--dl-color-gray-white);
             }
             .home-container04 {
               width: auto;
