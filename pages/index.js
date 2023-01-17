@@ -645,6 +645,7 @@ const Home = (props) => {
           }
           .home-text26 {
             color: var(--dl-color-gray-white);
+            padding: var(--dl-space-space-unit);
             font-size: 22px;
           }
           .home-container11 {
@@ -678,6 +679,9 @@ const Home = (props) => {
           @media (max-width: 1600px) {
             .home-nav {
               display: none;
+            }
+            .home-text26 {
+              padding: var(--dl-space-space-unit);
             }
           }
           @media (max-width: 1200px) {
