@@ -24,7 +24,7 @@ const GetStarted = (props) => {
             html={`
     <iframe
       id="JotFormIFrame-230166355965058"
-      title="Form"
+      title="iTracT"
       onload="window.parent.scrollTo(0,0)"
       allowtransparency="true"
       allowfullscreen="true"
@@ -33,7 +33,7 @@ const GetStarted = (props) => {
       frameborder="0"
       style="
       min-width: 100%;
-      height:539px;
+      height:1000px;
       border:none;"
       scrolling="no"
     >
@@ -128,6 +128,7 @@ const GetStarted = (props) => {
         {`
           .get-started-container {
             width: 100%;
+            height: 100vh;
             display: flex;
             overflow: auto;
             min-height: 100vh;
@@ -136,7 +137,7 @@ const GetStarted = (props) => {
           }
           .get-started-div {
             width: 100%;
-            height: 100vh;
+            height: auto;
           }
         `}
       </style>
