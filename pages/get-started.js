@@ -134,10 +134,11 @@ const GetStarted = (props) => {
             min-height: 100vh;
             align-items: center;
             flex-direction: column;
+            background-color: var(--dl-color-gray-black);
           }
           .get-started-div {
             width: 100%;
-            height: auto;
+            height: 100vh;
           }
         `}
       </style>
