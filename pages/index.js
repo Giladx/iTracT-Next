@@ -708,7 +708,7 @@ const Home = (props) => {
           }
           .home-container14 {
             flex: 0 0 auto;
-            width: 100%;
+            width: auto;
             display: flex;
             align-items: flex-start;
             flex-direction: column;
