@@ -698,6 +698,7 @@ const Home = (props) => {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
+            padding: var(--dl-space-space-twounits);
             align-items: center;
           }
           .home-image3 {
