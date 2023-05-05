@@ -702,7 +702,7 @@ const Home = (props) => {
             align-items: center;
           }
           .home-image3 {
-            width: 300px;
+            width: 200px;
             object-fit: cover;
             margin-right: var(--dl-space-space-twounits);
           }
@@ -744,7 +744,7 @@ const Home = (props) => {
               align-items: center;
             }
             .home-image3 {
-              width: 300px;
+              width: 200px;
               height: auto;
               margin-right: var(--dl-space-space-fiveunits);
             }
