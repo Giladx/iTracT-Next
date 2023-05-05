@@ -124,7 +124,7 @@ const Home = (props) => {
             </div>
           </header>
         </div>
-        <div className="home-div">
+        <div className="home-code-embed">
           <DangerousHTML
             html={`<style>
 ::-webkit-scrollbar{
@@ -150,6 +150,20 @@ const Home = (props) => {
         </div>
         <div className="home-hero">
           <div className="home-container03">
+            <h1 className="home-text10">
+              <span>Introducing iTracT,</span>
+              <br></br>
+              <span>
+                the next generation of smart, editable digital contracts
+              </span>
+            </h1>
+            <span className="home-text14">
+              <span className="home-text15">
+                With iTracT, you can easily create, edit, and sign contracts
+                online, without the need for paper or in-person signatures.
+              </span>
+              <br></br>
+            </span>
             <div className="home-btn-group1">
               <Link href="/get-started">
                 <a className="home-link3 button">Get Started</a>
@@ -169,7 +183,7 @@ const Home = (props) => {
         </div>
         <div className="home-container05">
           <div data-aos="fade" className="home-container06">
-            <span id="start" className="home-text10">
+            <span id="start" className="home-text17">
               <span>
                 Introducing iTracT, the next generation of smart, editable
                 digital contracts. With iTracT, you can easily create, edit, and
@@ -180,7 +194,7 @@ const Home = (props) => {
             </span>
           </div>
           <div className="home-container07">
-            <span data-aos="fade" className="home-text13">
+            <span data-aos="fade" className="home-text20">
               iTracT uses cutting-edge technology to make the contract creation
               process simple and efficient. The platform&apos;s intuitive
               interface allows users to quickly and easily create contracts
@@ -190,7 +204,7 @@ const Home = (props) => {
             </span>
           </div>
           <div className="home-container08">
-            <span data-aos="fade" className="home-text14">
+            <span data-aos="fade" className="home-text21">
               One of the key features of iTracT is its ability to allow for
               digital signatures. This means that all parties involved in the
               contract can sign the agreement electronically, without the need
@@ -200,7 +214,7 @@ const Home = (props) => {
             </span>
           </div>
           <div className="home-container09">
-            <span data-aos="fade" className="home-text15">
+            <span data-aos="fade" className="home-text22">
               <span>
                 iTracT also offers advanced security features to ensure that
                 your contracts are kept safe and secure. The platform uses
@@ -211,7 +225,7 @@ const Home = (props) => {
             </span>
           </div>
           <div data-aos="fade" className="home-container10">
-            <span className="home-text18">
+            <span className="home-text25">
               Overall, iTracT is the perfect solution for businesses and
               individuals who want to streamline their contract process and move
               away from paper-based agreements. With its user-friendly
@@ -230,7 +244,7 @@ const Home = (props) => {
           />
         </div>
         <div data-aos="fade" className="home-container12">
-          <span className="home-text19">
+          <span className="home-text26">
             <span>
               iTracT, the next generation of smart, editable digital contracts,
               offers many benefits when it comes to using blockchain technology.
@@ -306,7 +320,7 @@ const Home = (props) => {
                   }}
                 />
               </span>
-              <span className="home-text38">011.ninja</span>
+              <span className="home-text45">011.ninja</span>
             </a>
           </div>
         </div>
@@ -507,6 +521,16 @@ const Home = (props) => {
             padding-right: var(--dl-space-space-threeunits);
             flex-direction: column;
           }
+          .home-text10 {
+            color: var(--dl-color-gray-white);
+            font-size: 4em;
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .home-text14 {
+            color: var(--dl-color-gray-white);
+            font-size: 18px;
+            margin-bottom: var(--dl-space-space-unit);
+          }
           .home-btn-group1 {
             display: flex;
             align-items: center;
@@ -573,7 +597,7 @@ const Home = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-text10 {
+          .home-text17 {
             color: var(--dl-color-gray-white);
             overflow: hidden;
             animation: typing 3s steps(55, end),
@@ -590,7 +614,7 @@ const Home = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-text13 {
+          .home-text20 {
             color: var(--dl-color-gray-white);
             width: 100%;
             padding: var(--dl-space-space-unit);
@@ -609,7 +633,7 @@ const Home = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-text14 {
+          .home-text21 {
             color: var(--dl-color-gray-white);
             width: 100%;
             padding: var(--dl-space-space-unit);
@@ -623,7 +647,7 @@ const Home = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-text15 {
+          .home-text22 {
             color: var(--dl-color-gray-white);
             padding: var(--dl-space-space-unit);
             font-size: 22px;
@@ -635,7 +659,7 @@ const Home = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-text18 {
+          .home-text25 {
             color: var(--dl-color-gray-white);
             padding: var(--dl-space-space-unit);
             font-size: 22px;
@@ -666,7 +690,7 @@ const Home = (props) => {
             align-items: flex-start;
             background-color: var(--dl-color-gray-black);
           }
-          .home-text19 {
+          .home-text26 {
             color: var(--dl-color-gray-white);
             font-size: 22px;
           }
@@ -674,27 +698,45 @@ const Home = (props) => {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
-            align-items: flex-start;
+            align-items: center;
           }
           .home-image3 {
-            width: 100px;
+            width: 300px;
             object-fit: cover;
+            margin-right: var(--dl-space-space-twounits);
           }
           .home-container14 {
             flex: 0 0 auto;
-            width: 200px;
+            width: 100%;
             display: flex;
             align-items: flex-start;
             flex-direction: column;
           }
           .home-link5 {
+            color: var(--dl-color-gray-900);
+            width: auto;
+            height: 100%;
+            font-size: 24px;
             text-decoration: none;
           }
           @media (max-width: 1600px) {
             .home-nav {
               display: none;
             }
-            .home-text18 {
+            .home-text10 {
+              color: var(--dl-color-gray-white);
+              font-size: 4em;
+              margin-bottom: var(--dl-space-space-unit);
+            }
+            .home-text14 {
+              color: var(--dl-color-gray-white);
+              font-size: 22px;
+              margin-bottom: var(--dl-space-space-unit);
+            }
+            .home-text15 {
+              color: var(--dl-color-gray-white);
+            }
+            .home-text25 {
               padding: var(--dl-space-space-unit);
             }
             .home-container13 {
@@ -715,7 +757,7 @@ const Home = (props) => {
               text-align: center;
               text-decoration: none;
             }
-            .home-text38 {
+            .home-text45 {
               font-weight: 700;
             }
           }
@@ -750,7 +792,7 @@ const Home = (props) => {
             .home-container06 {
               padding: 0px;
             }
-            .home-text10 {
+            .home-text17 {
               color: var(--dl-color-gray-white);
               font-size: 22px;
               padding-top: 0px;
@@ -758,25 +800,25 @@ const Home = (props) => {
               padding-right: 0px;
               padding-bottom: var(--dl-space-space-twounits);
             }
-            .home-text13 {
+            .home-text20 {
               padding-top: 0px;
               padding-left: 0px;
               padding-right: 0px;
               padding-bottom: var(--dl-space-space-twounits);
             }
-            .home-text14 {
+            .home-text21 {
               padding-top: 0px;
               padding-left: 0px;
               padding-right: 0px;
               padding-bottom: var(--dl-space-space-twounits);
             }
-            .home-text15 {
+            .home-text22 {
               padding-top: 0px;
               padding-left: 0px;
               padding-right: 0px;
               padding-bottom: var(--dl-space-space-twounits);
             }
-            .home-text18 {
+            .home-text25 {
               padding-top: 0px;
               padding-left: 0px;
               padding-right: 0px;
@@ -797,7 +839,7 @@ const Home = (props) => {
               height: auto;
               padding: var(--dl-space-space-twounits);
             }
-            .home-text19 {
+            .home-text26 {
               color: var(--dl-color-gray-white);
             }
           }
@@ -900,7 +942,7 @@ const Home = (props) => {
               width: 100%;
               position: static;
             }
-            .home-text10 {
+            .home-text17 {
               color: var(--dl-color-gray-white);
               font-size: 22px;
             }
@@ -916,7 +958,7 @@ const Home = (props) => {
               width: 100%;
               position: static;
             }
-            .home-text15 {
+            .home-text22 {
               color: var(--dl-color-gray-white);
               font-size: 22px;
             }
@@ -926,7 +968,7 @@ const Home = (props) => {
               width: 100%;
               position: static;
             }
-            .home-text18 {
+            .home-text25 {
               color: var(--dl-color-gray-white);
               font-size: 22px;
               padding-top: 0px;
@@ -982,7 +1024,7 @@ const Home = (props) => {
             .home-mobile-menu {
               padding: 16px;
             }
-            .home-div {
+            .home-code-embed {
               width: 100%;
             }
             .home-hero {
@@ -1011,7 +1053,7 @@ const Home = (props) => {
             .home-container04 {
               width: auto;
             }
-            .home-text18 {
+            .home-text25 {
               padding-top: 0px;
               padding-left: 0px;
               padding-right: 0px;
