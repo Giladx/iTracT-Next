@@ -18,6 +18,10 @@ const GetStarted = (props) => {
             property="og:description"
             content="Introducing iTracT, the next generation of smart, editable digital contracts."
           />
+          <meta
+            property="og:image"
+            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/410ff757-73b0-464d-9513-b5b6fc794b66/0906c020-6147-4773-a3b6-08399d5c452f?org_if_sml=1"
+          />
         </Head>
         <div className="get-started-div">
           <DangerousHTML
